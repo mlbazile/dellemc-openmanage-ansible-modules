@@ -1,7 +1,7 @@
 ---
-- hosts: hosts
+- name: Reset the iDRAC
+  hosts: hosts
   connection: local
-  name: Reset the iDRAC
   gather_facts: False
 
   tasks:
