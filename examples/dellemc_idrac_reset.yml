@@ -1,3 +1,4 @@
+---
 - hosts: hosts
   connection: local
   name: Reset iDRAC
