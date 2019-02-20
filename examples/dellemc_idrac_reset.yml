@@ -1,11 +1,11 @@
 ---
 - hosts: hosts
   connection: local
-  name: Reset iDRAC
+  name: Reset The iDRAC
   gather_facts: False
 
   tasks:
-    - name: Reset The iDRAC
+    - name: Reset iDRAC
       dellemc_idrac_reset:
         idrac_ip:   "{{ idrac_ip }}"
         idrac_user: "{{ idrac_user }}"
