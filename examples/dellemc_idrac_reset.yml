@@ -1,5 +1,5 @@
 ---
-- hosts: hosts
+- hosts: all
   connection: local
   name: Reset iDRAC
   gather_facts: False
