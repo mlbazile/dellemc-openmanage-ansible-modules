@@ -1,5 +1,5 @@
 ---
-- hosts: hosts
+- hosts: all
   connection: local
   name: Get Installed Firmware Inventory
   gather_facts: False
